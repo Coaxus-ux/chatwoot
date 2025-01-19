@@ -1,6 +1,6 @@
 export const useInstallationName = (str, installationName) => {
   if (str && installationName) {
-    return str.replace(/Chatwoot/g, installationName);
+    return str.replace(/Canencio Chat/g, installationName);
   }
   return str;
 };

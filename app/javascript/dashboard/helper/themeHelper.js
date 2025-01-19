@@ -1,8 +1,8 @@
-import { LocalStorage } from 'shared/helpers/localStorage';
+/* import { LocalStorage } from 'shared/helpers/localStorage';
 import { LOCAL_STORAGE_KEYS } from 'dashboard/constants/localStorage';
-
+ */
 export const setColorTheme = isOSOnDarkMode => {
-  const selectedColorScheme =
+  /* const selectedColorScheme =
     LocalStorage.get(LOCAL_STORAGE_KEYS.COLOR_SCHEME) || 'auto';
   if (
     (selectedColorScheme === 'auto' && isOSOnDarkMode) ||
@@ -13,5 +13,7 @@ export const setColorTheme = isOSOnDarkMode => {
   } else {
     document.body.classList.remove('dark');
     document.documentElement.setAttribute('style', 'color-scheme: light;');
-  }
+  } */
+  document.body.classList.remove('dark');
+  document.documentElement.setAttribute('style', 'color-scheme: light;');
 };

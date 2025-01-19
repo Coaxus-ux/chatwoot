@@ -49,7 +49,7 @@ const primaryMenuItems = accountId => [
     toState: frontendURL(`accounts/${accountId}/campaigns`),
     toStateName: 'ongoing_campaigns',
   },
-  {
+  /* {
     icon: 'library',
     key: 'helpcenter',
     label: 'HELP_CENTER.TITLE',
@@ -57,7 +57,7 @@ const primaryMenuItems = accountId => [
     alwaysVisibleOnChatwootInstances: true,
     toState: frontendURL(`accounts/${accountId}/portals`),
     toStateName: 'default_portal_articles',
-  },
+  }, */
   {
     icon: 'settings',
     key: 'settings',

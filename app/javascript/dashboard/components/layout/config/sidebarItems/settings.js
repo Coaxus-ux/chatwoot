@@ -109,7 +109,7 @@ const settings = accountId => ({
       toStateName: 'attributes_list',
       featureFlag: FEATURE_FLAGS.CUSTOM_ATTRIBUTES,
     },
-    {
+    /* {
       icon: 'automation',
       label: 'AUTOMATION',
       hasSubMenu: false,
@@ -119,8 +119,8 @@ const settings = accountId => ({
       toState: frontendURL(`accounts/${accountId}/settings/automation/list`),
       toStateName: 'automation_list',
       featureFlag: FEATURE_FLAGS.AUTOMATIONS,
-    },
-    {
+    }, */
+    /* {
       icon: 'bot',
       label: 'AGENT_BOTS',
       hasSubMenu: false,
@@ -131,8 +131,8 @@ const settings = accountId => ({
       toState: frontendURL(`accounts/${accountId}/settings/agent-bots`),
       toStateName: 'agent_bots',
       featureFlag: FEATURE_FLAGS.AGENT_BOTS,
-    },
-    {
+    }, */
+    /* {
       icon: 'flash-settings',
       label: 'MACROS',
       hasSubMenu: false,
@@ -142,7 +142,7 @@ const settings = accountId => ({
       toState: frontendURL(`accounts/${accountId}/settings/macros`),
       toStateName: 'macros_wrapper',
       featureFlag: FEATURE_FLAGS.MACROS,
-    },
+    }, */
     {
       icon: 'chat-multiple',
       label: 'CANNED_RESPONSES',
@@ -156,7 +156,7 @@ const settings = accountId => ({
       toStateName: 'canned_list',
       featureFlag: FEATURE_FLAGS.CANNED_RESPONSES,
     },
-    {
+    /* {
       icon: 'flash-on',
       label: 'INTEGRATIONS',
       hasSubMenu: false,
@@ -166,7 +166,7 @@ const settings = accountId => ({
       toState: frontendURL(`accounts/${accountId}/settings/integrations`),
       toStateName: 'settings_applications',
       featureFlag: FEATURE_FLAGS.INTEGRATIONS,
-    },
+    }, */
     {
       icon: 'key',
       label: 'AUDIT_LOGS',
@@ -179,7 +179,7 @@ const settings = accountId => ({
       isEnterpriseOnly: true,
       featureFlag: FEATURE_FLAGS.AUDIT_LOGS,
     },
-    {
+    /* {
       icon: 'scan-person',
       label: 'CUSTOM_ROLES',
       hasSubMenu: false,
@@ -190,8 +190,8 @@ const settings = accountId => ({
       toStateName: 'custom_roles_list',
       isEnterpriseOnly: true,
       beta: true,
-    },
-    {
+    }, */
+    /* {
       icon: 'document-list-clock',
       label: 'SLA',
       hasSubMenu: false,
@@ -214,7 +214,7 @@ const settings = accountId => ({
       toState: frontendURL(`accounts/${accountId}/settings/billing`),
       toStateName: 'billing_settings_index',
       showOnlyOnCloud: true,
-    },
+    }, */
   ],
 });
 

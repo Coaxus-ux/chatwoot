@@ -87,7 +87,7 @@ export default {
             {{ $t('SIDEBAR_ITEMS.CONTACT_SUPPORT') }}
           </woot-button>
         </WootDropdownItem>
-        <WootDropdownItem>
+        <!-- <WootDropdownItem>
           <woot-button
             variant="clear"
             color-scheme="secondary"
@@ -97,7 +97,7 @@ export default {
           >
             {{ $t('SIDEBAR_ITEMS.KEYBOARD_SHORTCUTS') }}
           </woot-button>
-        </WootDropdownItem>
+        </WootDropdownItem> -->
         <WootDropdownItem>
           <router-link
             v-slot="{ href, isActive, navigate }"
@@ -117,7 +117,7 @@ export default {
             </a>
           </router-link>
         </WootDropdownItem>
-        <WootDropdownItem>
+        <!-- <WootDropdownItem>
           <woot-button
             variant="clear"
             color-scheme="secondary"
@@ -127,7 +127,7 @@ export default {
           >
             {{ $t('SIDEBAR_ITEMS.APPEARANCE') }}
           </woot-button>
-        </WootDropdownItem>
+        </WootDropdownItem> -->
         <WootDropdownItem v-if="currentUser.type === 'SuperAdmin'">
           <a
             href="/super_admin"

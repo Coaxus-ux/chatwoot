@@ -247,7 +247,7 @@ export default {
         </div>
       </div>
 
-      <div
+      <!--  <div
         class="flex flex-row p-4 border-slate-25 dark:border-slate-700 text-black-900 dark:text-slate-300"
       >
         <div
@@ -263,8 +263,8 @@ export default {
         <div class="p-4 flex-grow-0 flex-shrink-0 flex-[50%]">
           <woot-code :script="getAccountId" />
         </div>
-      </div>
-      <div class="p-4 text-sm text-center">
+      </div> -->
+      <!-- <div class="p-4 text-sm text-center">
         <div>{{ `v${globalConfig.appVersion}` }}</div>
         <div v-if="hasAnUpdateAvailable && globalConfig.displayManifest">
           {{
@@ -276,7 +276,7 @@ export default {
         <div class="build-id">
           <div>{{ `Build ${globalConfig.gitSha}` }}</div>
         </div>
-      </div>
+      </div> -->
 
       <woot-submit-button
         class="button nice success button--fixed-top"

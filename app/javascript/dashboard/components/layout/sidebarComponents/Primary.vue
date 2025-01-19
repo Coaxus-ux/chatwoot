@@ -72,12 +72,12 @@ export default {
     class="flex flex-col justify-between w-16 h-full bg-white border-r dark:bg-slate-900 border-slate-50 dark:border-slate-800/50 rtl:border-l rtl:border-r-0"
   >
     <div class="flex flex-col items-center">
-      <Logo
+      <!-- <Logo
         :source="logoSource"
         :name="installationName"
         :account-id="accountId"
         class="m-4 mb-10"
-      />
+      /> -->
       <PrimaryNavItem
         v-for="menuItem in menuItems"
         :key="menuItem.toState"
@@ -88,13 +88,13 @@ export default {
       />
     </div>
     <div class="flex flex-col items-center justify-end pb-6">
-      <PrimaryNavItem
+      <!-- <PrimaryNavItem
         v-if="!isACustomBrandedInstance"
         icon="book-open-globe"
         name="DOCS"
         open-in-new-page
         :to="helpDocsURL"
-      />
+      /> -->
       <NotificationBell @openNotificationPanel="openNotificationPanel" />
       <AgentDetails @toggleMenu="toggleOptions" />
       <OptionsMenu

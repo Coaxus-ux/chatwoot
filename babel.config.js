@@ -9,6 +9,7 @@ const plugins = () => [
     },
   ],
   [require('babel-plugin-transform-vue-jsx')],
+  require('@babel/plugin-proposal-optional-chaining'),
 ];
 
 module.exports = api => {

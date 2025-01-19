@@ -78,7 +78,7 @@ const openInNewTab = url => {
       >
         <slot name="description">{{ description }}</slot>
       </p>
-      <CustomBrandPolicyWrapper :show-on-custom-branded-instance="false">
+      <!-- <CustomBrandPolicyWrapper :show-on-custom-branded-instance="false">
         <a
           v-if="helpURL && linkText"
           :href="helpURL"
@@ -94,7 +94,7 @@ const openInNewTab = url => {
             class="flex-shrink-0 text-woot-500 dark:text-woot-500"
           />
         </a>
-      </CustomBrandPolicyWrapper>
+      </CustomBrandPolicyWrapper> -->
     </div>
     <div
       class="flex items-start justify-start w-full gap-3 sm:hidden flex-wrap"
